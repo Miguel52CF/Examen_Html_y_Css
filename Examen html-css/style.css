@@ -1,0 +1,239 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #006ffb;
+}
+
+body {
+    background-color: #1f446d;
+    padding: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ebe9e5;
+}
+
+.logo {
+    padding: 10px 10px 30px 10px;
+    width: 200px;
+}
+
+.header_Content {
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.header_form {
+    display: flex;
+    justify-content: end;
+}
+
+.Corporate {
+    background-color: #225ea1;
+    color: white;
+    font-weight: bold;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 5px 5px 5px 10px;
+    width: 120px;
+    text-align: start;
+    margin-right: 50px;
+}
+
+.barraDebusqueda {
+    width: 300px;
+    border-radius: 8px;
+}
+
+.search_nav {
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+    padding-bottom: 0px;
+}
+
+.header_Content li {
+    margin-right: 40px;
+}
+
+.border_left {
+    padding-left: 30px;
+    border-left: 1px solid gray;
+}
+
+.main_content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 100px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    background-color: #d4dbe3;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.fondo_azul {
+    background-color: #2666af;
+    width: auto;
+    color: #cad3dd;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.resaltarletra {
+    color: white;
+}
+
+.resaltar {
+    font-weight: bolder;
+}
+
+.login_form input {
+    width: 170px;
+    height: 25px;
+    border-radius: 8px;
+}
+
+.login_form * {
+    display: block;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.login_form a {
+    color: #0066ff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.botones {
+    display: flex;
+}
+
+.btn_signIn {
+    padding: 3px 20px;
+    margin-bottom: 15px;
+    color: white;
+    background-image: linear-gradient(to bottom, #4f4f4f, #5f5f5f, #6f6f6f, #808080, #919191);
+    border-radius: 8px;
+}
+
+.new_customer {
+    background-color: #2766ae;
+    margin-top: 20px;
+    width: auto;
+    color: white;
+    border: 2px solid white;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.imagenes {
+    display: flex;
+}
+
+.imagenes img {
+    width: 700px;
+    height: 460px;
+}
+
+.imagenes_extras img {
+    width: 227px;
+    height: 227px;
+}
+
+.anuncio {
+    margin-top: 20px;
+    background-color: #d4dbe3;
+    padding: 10px;
+}
+
+.bloques_content {
+    border: 1px solid red;
+    width: 200px;
+    display: flex;
+}
+
+.bloques_content a {
+    color: #0066ff;
+    font-weight: bolder;
+}
+
+.bloques {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    gap: 20px;
+}
+
+.bloques_content {
+    width: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 5px solid #d9d5ce;
+    color: #0066ff;
+}
+
+.bloques_content img {
+    width: 200px;
+}
+
+.bloques_content div {
+    margin-left: 20px;
+    font-size: 19px;
+}
+
+.bloques_content p {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #dad6ce;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+hr {
+    border-left: 1px solid gray;
+    height: 24px;
+    margin-left: 200px;
+}
+
+.navBarfooter ul {
+    display: flex;
+    list-style: none;
+}
+
+.derecha {
+    list-style: none;
+    padding-right: 30px;
+    border-right: 1px solid gray;
+    margin-right: 30px;
+}
+
+.color_negro {
+    color: black;
+    font-weight: bolder;
+}
+
+.color_verde {
+    color: #33996e;
+    font-weight: bolder;
+}
